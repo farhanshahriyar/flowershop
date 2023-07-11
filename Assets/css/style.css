@@ -189,3 +189,159 @@ section {
   font-size: 16px;
   color: rgba(39, 39, 39, 0.8);
 }
+
+/* hotdeals */
+.hotdeal__section {
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  height: 70vh;
+  text-align: center;
+}
+
+.hotdeal__contents {
+  padding-top: 8vh;
+  display: flex;
+  justify-content: space-around;
+  height: 50vh;
+  align-items: center;
+}
+
+.hotdeal__contents h2 {
+  font-weight: 800;
+  font-size: 30px;
+  padding-bottom: 11px;
+}
+
+span {
+  color: #E55473;
+}
+
+.hotdeal__contents p {
+  font-weight: 400;
+  font-size: 18px;
+  padding-bottom: 13px;
+  color: #27272798;
+}
+
+.hotdeal__image {
+  width: 200px;
+  height: auto;
+  object-fit: contain;
+  padding-bottom: 25px;
+}
+
+/* insta */
+
+.insta__section {
+  height: 75vh;
+  text-align: center;
+  padding-top: 15vh;
+}
+
+.insta__section h2 {
+  font-weight: 800;
+  font-size: 40px;
+  padding-bottom: 11px;
+}
+
+.insta__section p {
+  font-weight: 400;
+  font-size: 18px;
+  padding-bottom: 35px;
+  color: #27272798;
+}
+
+.insta__container {
+  display: flex;
+  justify-content: space-between;
+  height: 45vh;
+}
+
+.insta__image-1,
+.insta__image-2,
+.insta__image-3,
+.insta__image-4 {
+  flex: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* Latest Deal */
+.get-latest__deal {
+  margin-top: 5vh;
+  margin-bottom: 10vh;
+}
+
+.get-deal__active-part {
+  border-radius: 8px;
+  background-image: url('../Flower Asset/Rectangle\ 9.png');
+  background-color: lightgray;
+  background-size: cover;
+  height: 55vh;
+  background-repeat: no-repeat;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.get-deal__active-part h2 {
+  font-weight: 800;
+  font-size: 40px;
+  padding-bottom: 11px;
+}
+
+.get-deal__active-part p {
+  font-weight: 400;
+  font-size: 18px;
+  padding-bottom: 35px;
+  color: #27272798;
+}
+
+.get-deal__active-part input {
+  width: 450px;
+  padding-left: 15px;
+  margin-right: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: none;
+  border-radius: 8px;
+  background: #FFF;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 300;
+  font-size: 16px;
+}
+
+/* footer */
+.footer__Container {
+  height: 60vh;
+  background-color: #111010;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.footer__Container h1 {
+  font-weight: 800;
+  font-size: 40px;
+  padding-bottom: 15px;
+  color: white;
+}
+
+.footer__Container p {
+  font-weight: 400;
+  font-size: 18px;
+  padding-bottom: 35px;
+  color: rgba(255, 255, 255, 0.9);
+  font-stretch: semi-expanded;
+}
+
+.footer__Container small {
+  font-stretch: semi-expanded;
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.4)
+}
