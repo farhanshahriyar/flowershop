@@ -13,7 +13,8 @@
 /* common styles */
 
 .primary-content {
-    margin: 0 150px;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
 .btn {
@@ -131,6 +132,7 @@ section {
   width: 100%;
   padding-top: 20px;
   gap : 24px;
+  /* border: 1px solid #000000; */
 }
 
 .flower__img {
@@ -161,4 +163,29 @@ section {
   text-align: center;
   margin-top: 1rem;
   text-decoration: underline;
+}
+
+/* support */
+
+.support__container {
+  display: flex;
+  justify-content: space-around;
+  height: 40vh;
+  align-items: center;
+  text-align: center;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  padding: 0 70px;
+  margin-bottom: 10vh;
+}
+
+.support__container img {
+  width: 50px;
+  padding-bottom: 10px;
+}
+
+.support__container p {
+  font-weight: 600;
+  font-size: 16px;
+  color: rgba(39, 39, 39, 0.8);
 }
